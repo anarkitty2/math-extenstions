@@ -13,25 +13,25 @@ def fact(n: int):
         raise TypeError("Error, area must be a valid integer or float")
 
 
-def circumference(n):
+def circumference(r):
     try:
-        if n <= 0: return "Error, circumference must be positive"
-        return 2 * PI * n
+        if r <= 0: return "Error, circumference must be positive"
+        return 2 * PI * r
     except ValueError:
         raise ValueError("Error, area must be a valid integer or float")
 
 
-def c_area(n):
+def c_area(r):
     try:
-        if n <= 0: return "Error, area must be positive"
-        return PI * (n**2)
+        if r <= 0: return "Error, area must be positive"
+        return PI * (r**2)
     except ValueError:
         raise ValueError("Error, area must be a valid integer or float")
 
 
-def s_area(n):
+def s_area(r):
     try:
-        if n <= 0: raise ValueError("Error, area must be a valid integer or float")
-        return 4*PI*(n**2)
+        if r <= 0: raise ValueError("Error, area must be a valid integer or float")
+        return 4*PI*(r**2)
     except ValueError:
        raise ValueError("Error, area must be a valid integer or float")
