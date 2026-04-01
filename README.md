@@ -13,4 +13,5 @@ s_area(r): Method for getting area of a sphere<br>
 # Linear Equations
 linequ_get_a(z: string, y): Will return x value required to get y in a linear equation as a float<br>
 ## Examples
-linequ_get_a("2x+3", 11) will return 4.0
+linequ_get_a("2x+3", 11) will return 4.0<br>
+linequ_get_a("2x-1", 9) will return 5.0<br>
