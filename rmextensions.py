@@ -45,7 +45,7 @@ def mean(x: list):
 def linequ_get_a(z: str, y):
     try:
         # making sure only valid equations exist
-        if '+' not in z or '-' not in z: return ValueError("Error, invalid equation")
+        if '+' not in z and '-' not in z: return ValueError("Error, invalid equation")
         if '+' in z and '-' in z: return ValueError("Error, invalid equation")
         # get a and b
         x_const = float(z[z.find('x') - 1])
