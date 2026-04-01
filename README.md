@@ -11,6 +11,6 @@ c_area(r): Method for getting area of a circle<br>
 s_area(r): Method for getting area of a sphere<br>
 
 # Linear Equations
-lineequ_get_x(z: string, y): Will return x value required to get y in a linear equation as a float<br>
+linequ_get_a(z: string, y): Will return x value required to get y in a linear equation as a float<br>
 ## Examples
-lineequ_get_x("2x+3", 11) will return 4.0
+linequ_get_a("2x+3", 11) will return 4.0

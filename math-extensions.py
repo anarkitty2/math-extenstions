@@ -42,10 +42,10 @@ def mean(x: list):
     except TypeError: raise TypeError("Error, input must be a valid list")
 
 
-def linequ_get_x(z: str, y):
+def linequ_get_a(z: str, y):
     try:
         if 'x' not in z: return ValueError("Error, invalid equation")
-        # get constant attached to x
+        # get a and b
         x_const = float(z[z.find('x') - 1])
         const = float(z[z.find('+') + 1])
 
