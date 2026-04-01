@@ -7,5 +7,10 @@ fact(): Method for getting factorials<br>
 # Circles and Spheres
 circumference(r): Method for getting the circumference of a circle<br>
 
-c_area(r): Method for getting area of a circle
-s_area(r): Method for getting area of a sphere
+c_area(r): Method for getting area of a circle<br>
+s_area(r): Method for getting area of a sphere<br>
+
+# Linear Equations
+lineequ_get_x(z: string, y): Will return x value required to get y in a linear equation as a float<br>
+## Examples
+lineequ_get_x("2x+3", 11) will return 4.0
