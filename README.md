@@ -1,4 +1,10 @@
 # Math Extensions
+
+Should support python 3.9 up to 3.13
+```python
+from rmextensions import rmextensions
+```
+
 # Constants
 PI: Constant set to 3.14159265
 
