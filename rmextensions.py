@@ -45,7 +45,6 @@ def mean(x: list):
 def linequ_get_a(z: str, y):
     try:
         # making sure only valid equations exist
-        if 'x' not in z: return ValueError("Error, invalid equation")
         if '+' not in z or '-' not in z: return ValueError("Error, invalid equation")
         if '+' in z and '-' in z: return ValueError("Error, invalid equation")
         # get a and b
